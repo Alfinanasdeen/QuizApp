@@ -9,12 +9,19 @@ function QuizApp() {
   const [userAnswer, setUserAnswer] = useState([]);
   const [answerSelected, setAnswerSelected] = useState(false);
   const [quizCompleted, setQuizCompleted] = useState(false);
+  const [selectedOptions, setSelectedOptions] = useState({});
 
-  const handleAnswerSelection = (isCorrect) => {
+  const handleAnswerSelection = (index, isCorrect) => {
     const newAnswers = [...userAnswer];
     newAnswers[currentQuestion] = isCorrect;
     setUserAnswer(newAnswers);
     setAnswerSelected(true);
+
+    //Store selected option for the current question
+    setSelectedOptions((prev) => ({
+      ...prev,
+      [currentQuestion]: index,
+    }));
   };
 
   const handleNextQuestion = () => {
@@ -41,6 +48,7 @@ function QuizApp() {
     setUserAnswer([]);
     setAnswerSelected(false);
     setQuizCompleted(false);
+    setSelectedOptions({});
   };
 
   return (
@@ -51,6 +59,7 @@ function QuizApp() {
           <Question
             questionList={questionList[currentQuestion]}
             onSelectedAnswer={handleAnswerSelection}
+            selectedIndex={selectedOptions[currentQuestion]}
           />
 
           {/* Navigation Buttons */}

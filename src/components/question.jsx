@@ -1,18 +1,4 @@
-import { useState, useEffect } from "react";
-
-function Question({ questionList, onSelectedAnswer }) {
-    const [selectedIndex, setSelectedIndex] = useState(null);
-
-    useEffect(() => {
-        // Reset selected index whenever a new question is loaded
-        setSelectedIndex(null);
-    }, [questionList]);
-
-    const handleClick = (index, isCorrect) => {
-        setSelectedIndex(index);
-        onSelectedAnswer(isCorrect);
-    };
-
+function Question({ questionList, onSelectedAnswer, selectedIndex }) {
     return (
         <div className="question">
             <h2>{questionList.NO}.{questionList.question}</h2>
@@ -21,7 +7,7 @@ function Question({ questionList, onSelectedAnswer }) {
                     <li key={index}>
                         <button
                             className={selectedIndex === index ? "selected" : ""}
-                            onClick={() => handleClick(index, option.isCorrect)}
+                            onClick={() => onSelectedAnswer(index, option.isCorrect)}
                         >
                             {option.text}
                         </button>

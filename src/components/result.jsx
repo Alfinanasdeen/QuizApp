@@ -5,10 +5,10 @@ function Result({ userAnswer, questionList, resetQuiz = () => { } }) {
     return (
         <div className="results">
             <h2>Result</h2>
-            <p>
+            <h3>
                 You Answered {correctedAnswer} out of {questionList.length} questions
                 <span onClick={resetQuiz}>Click here to retry</span>
-            </p>
+            </h3>
             <ul>
                 {questionList.map((question, index) => {
                     return (
