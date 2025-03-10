@@ -1,0 +1,102 @@
+[
+  {
+    "NO": 1,
+    "question": "Which is the longest river in the world?",
+    "answerOptions": [
+      { "text": "Amazon River", "isCorrect": false },
+      { "text": "Nile River", "isCorrect": true },
+      { "text": "Yangtze River", "isCorrect": false },
+      { "text": "Mississippi River", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 2,
+    "question": "What is the smallest country in the world?",
+    "answerOptions": [
+      { "text": "Monaco", "isCorrect": false },
+      { "text": "Vatican City", "isCorrect": true },
+      { "text": "San Marino", "isCorrect": false },
+      { "text": "Liechtenstein", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 3,
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "answerOptions": [
+      { "text": "Oxygen", "isCorrect": false },
+      { "text": "Nitrogen", "isCorrect": false },
+      { "text": "Carbon Dioxide", "isCorrect": true },
+      { "text": "Hydrogen", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 4,
+    "question": "Who developed the theory of relativity?",
+    "answerOptions": [
+      { "text": "Isaac Newton", "isCorrect": false },
+      { "text": "Albert Einstein", "isCorrect": true },
+      { "text": "Nikola Tesla", "isCorrect": false },
+      { "text": "Galileo Galilei", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 5,
+    "question": "Which planet is known as the Red Planet?",
+    "answerOptions": [
+      { "text": "Mercury", "isCorrect": false },
+      { "text": "Venus", "isCorrect": false },
+      { "text": "Mars", "isCorrect": true },
+      { "text": "Jupiter", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 6,
+    "question": "What is the hardest natural substance on Earth?",
+    "answerOptions": [
+      { "text": "Gold", "isCorrect": false },
+      { "text": "Iron", "isCorrect": false },
+      { "text": "Diamond", "isCorrect": true },
+      { "text": "Platinum", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 7,
+    "question": "Which continent has the most countries?",
+    "answerOptions": [
+      { "text": "Asia", "isCorrect": false },
+      { "text": "Africa", "isCorrect": true },
+      { "text": "Europe", "isCorrect": false },
+      { "text": "South America", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 8,
+    "question": "Which physicist developed the laws of motion and universal gravitation?",
+    "answerOptions": [
+      { "text": "Albert Einstein", "isCorrect": false },
+      { "text": "Isaac Newton", "isCorrect": true },
+      { "text": "Galileo Galilei", "isCorrect": false },
+      { "text": "Niels Bohr", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 9,
+    "question": "Which famous mathematical hypothesis remains unproven and is one of the Millennium Prize Problems?",
+    "answerOptions": [
+      { "text": "Riemann Hypothesis", "isCorrect": true },
+      { "text": "Fermat's Last Theorem", "isCorrect": false },
+      { "text": "Goldbach's Conjecture", "isCorrect": false },
+      { "text": "Collatz Conjecture", "isCorrect": false }
+    ]
+  },
+  {
+    "NO": 10,
+    "question": "Which is the only mammal capable of true flight?",
+    "answerOptions": [
+      { "text": "Squirrel", "isCorrect": false },
+      { "text": "Eagle", "isCorrect": false },
+      { "text": "Bat", "isCorrect": true },
+      { "text": "Penguin", "isCorrect": false }
+    ]
+  }
+]
